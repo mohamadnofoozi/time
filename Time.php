@@ -8,7 +8,7 @@
 
 <?php
 
-define('API_KEY', '397277897:AAEfJB3KOL-jahsuARGt_L9o1-Ku08KD7j4');
+define('API_KEY', 'توکن');
 
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -162,13 +162,6 @@ $jok
  'parse_mode'=>"MarkDown"
  ]);    
   }
-elseif($data == "/jock"){
-bot('sendMessage',[
- 'chat_id'=>$chatid,
- 'text'=>"$jok",
- 'parse_mode'=>"MarkDown"
- ]);    
-            }
 
 ?>
 ///@NoFooZiTM///
